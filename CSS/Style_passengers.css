@@ -1,0 +1,113 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+
+
+.main_passengers {
+    background-size: cover;
+    -webkit-background-size: cover;
+    justify-content: center;
+    padding: 100px;
+    display: grid;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.head_block3 {
+    background: rgba(0, 225, 255, 0.8);
+    vertical-align: center;
+    border-radius: 25px 25px 0 0;
+}
+
+.name_block3 {
+    text-align: center;
+    color: black;
+    letter-spacing: 5px;
+    padding: 5px;
+}
+
+.block_settings3 {
+    display: grid;
+    background: rgba(128, 128, 128, 0.7);
+    letter-spacing: 2px;
+    border-radius: 0 0 25px 25px;
+    width: 1000px;
+}
+
+.name_settings3 {
+    padding-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+
+.blocks_result {
+    display: inline-flex;
+}
+
+h4 {
+    margin-top: 6px;
+}
+
+.blocks1 {
+    display: inline-flex;
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.box {
+    margin-left: 10px;
+}
+
+.number_passenger {
+    min-width: 100%;
+    width: 100%;
+}
+
+.change {
+    text-transform: uppercase;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: rgb(209, 205, 198);
+    padding: 2px;
+    text-align: center;
+
+}
+
+
+.change:hover {
+    background: rgb(185, 185, 185);
+    border: 2px solid white;
+}
+
+
+.next {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px auto;
+}
+
+.passenger_next {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(12,12,12, 0.8);
+    border: solid 2px black;
+    padding: 4px;
+}
+
+.passenger_next:hover {
+    color: aqua;
+    background-color: rgba(12,12,12, 0.8);
+    border: solid 2px white;
+    padding: 4px;
+}

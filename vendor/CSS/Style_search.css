@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  background-size: cover;
+  -webkit-background-size: cover;
+  text-transform: uppercase;
+  justify-content: center;
+  padding: 100px;
+  display: grid;
+}
+
+.head_block {
+  background: rgba(0, 255, 255, 0.6);
+  vertical-align: center;
+  border-radius: 25px 25px 0 0;
+}
+
+.name_block {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  letter-spacing: 5px;
+  padding: 5px;
+}
+
+.block_settings {
+  background: rgba(128, 128, 128, 0.7);
+  letter-spacing: 2px;
+  border-radius: 0 0 25px 25px;
+}
+
+.name_settings {
+  padding-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 30px;
+  cursor: pointer;
+}
+
+
+.blocks_result {
+  display: inline-flex;
+}
+
+h5 {
+  margin-left: 40px;
+}
+
+.box_buy {
+  height: 40px;
+  padding: 0 0 0 700px;
+}
+
+.buy {
+
+  border: 2px solid black;
+  text-decoration: none;
+  margin-left: 70px;
+  color: black;
+  background-color: rgb(185, 185, 185);
+  padding: 3px;
+}
+
+
+
+#change {
+  margin: 10px;
+  text-transform: uppercase;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-size: 24px;
+  background-color: rgb(209, 205, 198);
+  width: 1000px;
+}
+
+#change:hover .buy {
+  background-color: white;
+}
+
+#change:hover {
+  background: rgb(185, 185, 185);
+  border: 2px solid white;
+
+}
+
+.result {
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(148, 180, 228);
+  text-decoration: none;
+  -webkit-text-stroke: 1px rgb(36, 103, 158);
+  letter-spacing: 0.05em;
+  background: rgba(0, 0, 0, 0.158);
+
+}
+

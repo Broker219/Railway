@@ -1,0 +1,36 @@
+body {
+    background: url(Images/bg-image.jpg) no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-attachment: fixed;
+
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+
+.head_block {
+    background: rgba(24, 128, 213, 0.23);
+    padding: 5px;
+    letter-spacing: 2px;
+
+}
+
+.first {
+    border-radius: 25px 0 0 0;
+}
+
+.end {
+    border-radius: 0 25px 0 0;
+}
+
+th, td {
+    padding: 10px;
+
+}
+
+td {
+    background: rgba(181, 181, 181, 0.8);
+}
